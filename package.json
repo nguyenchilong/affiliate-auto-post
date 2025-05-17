@@ -1,0 +1,26 @@
+{
+  "name": "affiliate-reply-bot",
+  "version": "1.0.0",
+  "description": "A Node.js app using GPT-4o and Playwright to auto-reply to user comments with affiliate links.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.29.0",
+    "playwright": "^1.43.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
